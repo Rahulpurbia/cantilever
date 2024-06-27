@@ -1,6 +1,6 @@
 /* src/components/TransactionHistory.css */
 .transaction-history {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 15px;
     padding-block: 20px;
     border-radius: 28px;
@@ -23,7 +23,7 @@
 .transaction-history th,
 .transaction-history td {
     text-align: left;
-    padding: 7px;
+    padding: 10px;
     font-weight: 400;
     font-size: 14px;
 }

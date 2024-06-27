@@ -4,6 +4,8 @@
     padding: 5px 15px;
     border-radius: 8px;
     position: relative;
+    flex: 1;
+    min-width: 200px;
 }
 
 .text-field::after {

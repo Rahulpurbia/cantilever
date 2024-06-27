@@ -14,6 +14,7 @@
 
 .cards-first-section {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-wrapper {
@@ -86,4 +87,12 @@
 
 .balance * {
     margin-left: auto;
+}
+
+@media screen and (max-width:1425px) {
+    .cards-first-section {
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+    }
 }

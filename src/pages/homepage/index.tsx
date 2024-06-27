@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Header from "../../components/Header/Header";
@@ -11,20 +11,22 @@ import NewTransaction from "../../components/NewTransaction/NewTransaction";
 type Props = {};
 
 const Homepage = (props: Props) => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="outer-wrapper">
       <div className="dashboard-wrapper">
         <div className="">
-          <Sidebar />
+          <Sidebar open={open} setOpen={setOpen} />
         </div>
         <div className="content-wrapper">
-          <Header />
+          <Header setOpen={setOpen} />
           <div className="content">
-            <div>
+            <div className="first-sec">
               <Cards />
               <TransactionHistory />
             </div>
-            <div>
+            <div className="second-sec">
               <Goals />
               <OutcomeStatistics />
               <NewTransaction />

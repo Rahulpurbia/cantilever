@@ -12,6 +12,7 @@ import Brush from "./goals/bursh.svg";
 import Console from "./goals/console.svg";
 import UserIcon from "./new-transactions/profile-image.png";
 import GetLoanCard from "./new-transactions/red-card.png";
+import MenuIcon from "./hamburger-icon.svg";
 
 export {
   Logo,
@@ -28,4 +29,5 @@ export {
   Console,
   UserIcon,
   GetLoanCard,
+  MenuIcon,
 };
