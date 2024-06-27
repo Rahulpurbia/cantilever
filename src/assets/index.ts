@@ -10,6 +10,8 @@ import LeafIcon from "./transaction-history/leaf.svg";
 import Mountain from "./goals/mountain.svg";
 import Brush from "./goals/bursh.svg";
 import Console from "./goals/console.svg";
+import UserIcon from "./new-transactions/profile-image.png";
+import GetLoanCard from "./new-transactions/red-card.png";
 
 export {
   Logo,
@@ -24,4 +26,6 @@ export {
   Mountain,
   Brush,
   Console,
+  UserIcon,
+  GetLoanCard,
 };

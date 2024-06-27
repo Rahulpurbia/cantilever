@@ -1,0 +1,35 @@
+.text-field {
+    height: 36px;
+    border: 1px solid var(--blue);
+    padding: 5px 15px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.text-field::after {
+    content: '$';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #C7C7C7;
+    font-weight: 300;
+
+}
+
+.text-field input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: lighter;
+    outline: none;
+}
+
+.text-field input::placeholder {
+    color: #C7C7C7;
+    font-weight: 300;
+
+}

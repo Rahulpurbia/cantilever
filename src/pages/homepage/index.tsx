@@ -6,6 +6,7 @@ import Cards from "../../components/Cards/Cards";
 import Goals from "../../components/Goals/Goals";
 import OutcomeStatistics from "../../components/OutcomStatistics/OutcomeStatistics";
 import TransactionHistory from "../../components/TransactionHistory/TransactionHistory";
+import NewTransaction from "../../components/NewTransaction/NewTransaction";
 
 type Props = {};
 
@@ -20,7 +21,8 @@ const Homepage = (props: Props) => {
           <Header />
           {/* <Cards /> */}
           {/* <Goals /> */}
-          <OutcomeStatistics />
+          {/* <OutcomeStatistics /> */}
+          <NewTransaction />
           <TransactionHistory />
         </div>
       </div>

@@ -4,10 +4,10 @@
 }
 
 .header h1 {
-    font-size: 2em;
+    font-size: 43px;
     margin: 0;
 }
 
 .header p {
-    color: #6c757d;
+    color: var(--light-text);
 }
