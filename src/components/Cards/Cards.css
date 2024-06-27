@@ -101,3 +101,18 @@
     }
 
 }
+
+@media screen and (max-width:445px) {
+    .card-wrapper>div {
+        padding: 0;
+    }
+
+    .cards-first-section {
+        align-items: center;
+    }
+
+    .balance-details {
+        align-self: flex-end;
+    }
+
+}
