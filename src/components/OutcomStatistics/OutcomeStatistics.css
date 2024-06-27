@@ -1,0 +1,25 @@
+.outcome-statistics {
+    margin-bottom: 20px;
+}
+
+.stat {
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.stat-color {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.stat-bar {
+    height: 10px;
+    border-radius: 5px;
+}

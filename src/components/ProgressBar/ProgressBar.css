@@ -1,0 +1,14 @@
+.progress-bar {
+    width: 100%;
+    border-radius: 14px;
+    height: 10px;
+    border: 1px solid;
+    background-color: #F1F1F1;
+    overflow: hidden;
+    border:none;
+}
+
+.progress-indicator {
+    border-radius: 14px;
+    height: 10px;
+}

@@ -1,0 +1,29 @@
+/* src/components/Goals.css */
+.goals {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.goal {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.goal p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.goal span {
+    color: #6c757d;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.goal div {
+    font-weight: bold;
+}

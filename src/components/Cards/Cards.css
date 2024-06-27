@@ -1,0 +1,75 @@
+/* src/components/Cards.css */
+.cards {
+    box-shadow: 0px 0px 1px 0px #0000000A, 0px 2px 6px 0px #0000000A, 0px 16px 24px 0px #0000000F;
+    padding: 15px;
+    border-radius: 28px;
+
+}
+
+.cards-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.cards-first-section {
+    display: flex;
+}
+
+.card-wrapper {
+    padding-inline: 20px;
+    border-right: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.progress-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 10px;
+
+}
+
+.progress-details span:first-child {
+    color: var(--light-text);
+    font-size: 14px;
+}
+
+.progress-details span:last-child {
+    font-size: 14px;
+}
+
+.balance-details {
+    padding-inline: 28px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.balance-details .value {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--blue);
+}
+
+.income .value {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--green);
+}
+
+.outcome .value {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--red);
+}
+
+.balance-details .label {
+    font-size: 14px;
+    color: var(--light-text);
+    text-align: right;
+}

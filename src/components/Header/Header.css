@@ -1,0 +1,13 @@
+/* src/components/Header.css */
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.header p {
+    color: #6c757d;
+}

@@ -1,0 +1,74 @@
+/* src/components/Card.css */
+.card {
+    width: 320px;
+    background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
+    border-radius: 26px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    margin-bottom: 46px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 4px;
+    margin: 0;
+}
+
+.card-subtitle {
+    font-size: 8px;
+    line-height: 10px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 40%);
+}
+
+.card-body {
+    font-size: 1em;
+}
+
+.card-number {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    font-size: 22px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info-item {
+    text-align: left;
+    flex: 1;
+}
+
+.expiry-date {
+    text-align: center;
+}
+
+.label {
+    display: block;
+    font-size: 8px;
+}
+
+.value {
+    font-size: 13px;
+}
+
+/* 
+.cloud-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background-image: url('../../assets/navbar/cloud-blue.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
