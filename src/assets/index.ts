@@ -5,6 +5,7 @@ import CardsIcon from "./navbar/card.svg";
 import InvoicesIcon from "./navbar/invoices.svg";
 import GoalsIcon from "./navbar/goals.svg";
 import SettingsIcon from "./navbar/settings.svg";
+import UpgradeIcon from './navbar/navcashbottom.svg'
 
 export {
   Logo,
@@ -14,4 +15,5 @@ export {
   InvoicesIcon,
   GoalsIcon,
   SettingsIcon,
+  UpgradeIcon
 };

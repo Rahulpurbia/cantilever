@@ -11,7 +11,7 @@ export const navMenuItems = [
   {
     title: "Overview",
     logo: OverviewIcon,
-    href: "#",
+    href: "/",
   },
   {
     title: "Transactions",
