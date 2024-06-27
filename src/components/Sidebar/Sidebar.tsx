@@ -2,10 +2,12 @@ import React from "react";
 import "./Sidebar.css";
 import { Logo, UpgradeIcon } from "../../assets";
 import { navMenuItems } from "./SidebarConstants";
+import { Link, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
+  const location = useLocation();
   const getClassName = (href: string) => {
-    return window.location.href.includes(href) ? "active" : "";
+    return location.pathname === href ? "active" : "";
   };
 
   return (
@@ -19,8 +21,12 @@ const Sidebar = () => {
           {navMenuItems.map((item, index) => {
             return (
               <li key={item.title} className={getClassName(item.href)}>
-                <img src={item.logo} />
-                <a href={item.href}>{item.title}</a>
+                <object
+                  type="image/svg+xml"
+                  data={item.logo}
+                  width={"17px"}
+                ></object>
+                <Link to={item.href}>{item.title}</Link>
               </li>
             );
           })}

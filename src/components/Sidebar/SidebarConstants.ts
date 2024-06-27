@@ -6,36 +6,37 @@ import {
   GoalsIcon,
   SettingsIcon,
 } from "../../assets";
+import { paths } from "../../utils/paths";
 
 export const navMenuItems = [
   {
     title: "Overview",
     logo: OverviewIcon,
-    href: "/",
+    href: paths.home,
   },
   {
     title: "Transactions",
     logo: TransactionsIcon,
-    href: "#",
+    href: paths.transactions,
   },
   {
     title: "Cards",
     logo: CardsIcon,
-    href: "#",
+    href: paths.cards,
   },
   {
     title: "Invoices",
     logo: InvoicesIcon,
-    href: "#",
+    href: paths.invoices,
   },
   {
     title: "Goals",
     logo: GoalsIcon,
-    href: "#",
+    href: paths.goals,
   },
   {
     title: "Settings",
     logo: SettingsIcon,
-    href: "#",
+    href: paths.settings,
   },
 ];

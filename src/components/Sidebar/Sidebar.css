@@ -44,14 +44,10 @@
     margin: 2px 0;
     display: flex;
     align-items: center;
-    padding: 5px 10px;
+    padding: 10px;
     gap: 20px;
     border-radius: 4px;
-}
-
-.sidebar-nav ul li img {
-    width: 30px;
-    height: 30px;
+    cursor: pointer;
 }
 
 .sidebar-nav ul li a {
@@ -66,8 +62,12 @@
 
 .sidebar-nav ul li.active a {
     color: var(--blue);
-    font-weight: bold;
 }
+
+.sidebar-nav ul li.active object svg path {
+    stroke: var(--blue) !important;
+}
+
 
 .sidebar-footer {
     width: 100%;

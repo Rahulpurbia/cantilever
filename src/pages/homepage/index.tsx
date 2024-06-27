@@ -17,13 +17,19 @@ const Homepage = (props: Props) => {
         <div className="">
           <Sidebar />
         </div>
-        <div className="content">
+        <div className="content-wrapper">
           <Header />
-          {/* <Cards /> */}
-          {/* <Goals /> */}
-          {/* <OutcomeStatistics /> */}
-          <NewTransaction />
-          <TransactionHistory />
+          <div className="content">
+            <div>
+              <Cards />
+              <TransactionHistory />
+            </div>
+            <div>
+              <Goals />
+              <OutcomeStatistics />
+              <NewTransaction />
+            </div>
+          </div>
         </div>
       </div>
     </div>

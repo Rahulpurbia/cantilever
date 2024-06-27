@@ -7,10 +7,33 @@
 :root {
   --light-bg: white;
   --dark-text: #404040;
-  --light-text:#AEAEAE;
+  --light-text: #AEAEAE;
   --lighter-text: #C7C7C7;
   --blue: #197BBD;
   --green: #439A86;
   --red: #BB4430;
   --yellow: #FFC145;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+html {
+  scrollbar-width: thin;
 }

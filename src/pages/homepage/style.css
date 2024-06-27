@@ -19,9 +19,14 @@
 }
 
 
-.content {
+.content-wrapper {
     flex-grow: 1;
     padding: 20px;
-    background-color: #f8f9fa;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display:flex;
 }
