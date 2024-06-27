@@ -48,9 +48,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    text-align: right;
 }
 
-.balance-details .value {
+.current-balance .value {
     font-size: 25px;
     font-weight: 500;
     color: var(--blue);
@@ -72,4 +73,8 @@
     font-size: 14px;
     color: var(--light-text);
     text-align: right;
+}
+
+.balance * {
+    margin-left: auto;
 }

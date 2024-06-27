@@ -13,16 +13,16 @@ const Homepage = (props: Props) => {
   return (
     <div className="outer-wrapper">
       <div className="dashboard-wrapper">
-      <div className="sidebar">
-        <Sidebar />
-      </div>
-      <div className="content">
-        <Header />
-        <Cards />
-        <Goals />
-        <OutcomeStatistics />
-        <TransactionHistory />
-      </div>
+        <div className="">
+          <Sidebar />
+        </div>
+        <div className="content">
+          <Header />
+          <Cards />
+          {/* <Goals /> */}
+          {/* <OutcomeStatistics /> */}
+          <TransactionHistory />
+        </div>
       </div>
     </div>
   );

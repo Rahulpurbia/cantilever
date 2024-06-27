@@ -3,6 +3,7 @@ import React from "react";
 import "./Cards.css";
 import Card from "../Card/Card";
 import ProgressBar from "../ProgressBar/ProgressBar";
+import ToggleButton from "../ToggleButton/ToggleButton";
 
 const Cards = () => {
   return (
@@ -40,6 +41,10 @@ const Cards = () => {
               <span>350.75</span>
             </div>
             <div className="label">Outcome</div>
+          </div>
+          <div className="balance">
+            <ToggleButton />
+            <div className="label">Deactivate Card</div>
           </div>
         </div>
       </div>
