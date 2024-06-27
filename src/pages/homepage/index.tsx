@@ -19,7 +19,7 @@ const Homepage = (props: Props) => {
         <div className="content">
           <Header />
           <Cards />
-          {/* <Goals /> */}
+          <Goals />
           {/* <OutcomeStatistics /> */}
           <TransactionHistory />
         </div>

@@ -5,7 +5,11 @@ import CardsIcon from "./navbar/card.svg";
 import InvoicesIcon from "./navbar/invoices.svg";
 import GoalsIcon from "./navbar/goals.svg";
 import SettingsIcon from "./navbar/settings.svg";
-import UpgradeIcon from './navbar/navcashbottom.svg'
+import UpgradeIcon from "./navbar/navcashbottom.svg";
+import LeafIcon from "./transaction-history/leaf.svg";
+import Mountain from "./goals/mountain.svg";
+import Brush from "./goals/bursh.svg";
+import Console from "./goals/console.svg";
 
 export {
   Logo,
@@ -15,5 +19,9 @@ export {
   InvoicesIcon,
   GoalsIcon,
   SettingsIcon,
-  UpgradeIcon
+  UpgradeIcon,
+  LeafIcon,
+  Mountain,
+  Brush,
+  Console,
 };

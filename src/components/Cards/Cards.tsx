@@ -11,7 +11,9 @@ const Cards = () => {
       <h2 className="cards-title">Cards</h2>
       <div className="cards-first-section">
         <div className="card-wrapper">
+          <div>
           <Card />
+          </div>
           <div>
             <ProgressBar percentage="25%" />
             <div className="progress-details">

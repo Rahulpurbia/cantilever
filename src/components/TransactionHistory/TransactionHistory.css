@@ -1,10 +1,18 @@
 /* src/components/TransactionHistory.css */
 .transaction-history {
     margin-top: 20px;
+    padding: 15px;
+    padding-block: 20px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 1px 0px #0000000A, 0px 2px 6px 0px #0000000A, 0px 16px 24px 0px #0000000F;
+
 }
 
 .transaction-history h2 {
     margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 13px;
 }
 
 .transaction-history table {
@@ -15,10 +23,50 @@
 .transaction-history th,
 .transaction-history td {
     text-align: left;
-    padding: 10px;
-    border-bottom: 1px solid #dee2e6;
+    padding: 7px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.transaction-history td {
+    color: var(--lighter-text);
 }
 
 .transaction-history th {
-    background-color: #f8f9fa;
+    color: var(--light-text);
+}
+
+tr td:nth-child(1) {
+    color: var(--dark-text);
+    display: flex;
+    gap: 5px;
+}
+
+th {
+    width: 30%;
+}
+
+th:last-child {
+    text-align: right;
+    width: 10%;
+}
+
+tr td:last-child {
+    color: var(--dark-text);
+    font-weight: bold;
+    text-align: right;
+}
+
+.history-item-icon {
+    width: 21px;
+    height: 21px;
+    background-color: #EFEFEF;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-item-icon img {
+    width: 11px;
 }
