@@ -1,0 +1,17 @@
+.outer-wrapper {
+  background: linear-gradient(180deg, #e6e6e6 0%, rgba(240, 240, 240, 0) 100%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-wrapper {
+  background-color: var(--light-bg);
+  border-radius: 50px;
+  width: calc(100vw - 50px);
+  height: calc(100vh - 50px);
+  box-shadow: 0px 0px 1px 0px #0000000a, 0px 4px 8px 0px #0000000a,
+    0px 16px 24px 0px #0000000a, 0px 24px 32px 0px #0000000a;
+}

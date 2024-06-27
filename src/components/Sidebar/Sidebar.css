@@ -1,0 +1,23 @@
+.sidebar-container {
+    width: 240px;
+    height: 100%;
+    border-right: 1px solid #E9E9E9;
+    padding: 40px;
+    padding-top: 60px;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.logo img {
+    width: 45px;
+}
+
+.logo span {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+}
